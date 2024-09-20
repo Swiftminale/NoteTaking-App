@@ -1,0 +1,40 @@
+{
+  "notes": [
+    {
+      "title": "Anniversary dinner reservation",
+      "details": "Book a table at the Italian restaurant for the anniversary dinner. Ensure to request a table with a view.",
+      "category": "Reminder",
+      "id": "7"
+    },
+    {
+      "title": "Finish budget report",
+      "details": "Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.",
+      "category": "Work",
+      "id": "8"
+    },
+    {
+      "title": "Set up automatic savings",
+      "details": "Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.",
+      "category": "Money",
+      "id": "9"
+    },
+    {
+      "title": "Water the plants",
+      "details": "Water all the indoor plants. Make sure the succulents don't get overwatered.",
+      "category": "Todos",
+      "id": "10"
+    },
+    {
+      "id": "7565",
+      "title": "Minale Fetene birth day",
+      "details": "may 28",
+      "category": "reminders"
+    },
+    {
+      "id": "bd4b",
+      "title": "Test the ui",
+      "details": "check border Radius\nand React-Masonart-css",
+      "category": "todos"
+    }
+  ]
+}
