@@ -4,37 +4,301 @@
       "title": "Anniversary dinner reservation",
       "details": "Book a table at the Italian restaurant for the anniversary dinner. Ensure to request a table with a view.",
       "category": "Reminder",
-      "id": "7"
+      "id": "1"
     },
     {
       "title": "Finish budget report",
-      "details": "Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.",
+      "details": "Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.",
       "category": "Work",
-      "id": "8"
+      "id": "2"
     },
     {
       "title": "Set up automatic savings",
-      "details": "Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.",
+      "details": "Set up a recurring transfer to savings account.",
       "category": "Money",
-      "id": "9"
+      "id": "3"
     },
     {
       "title": "Water the plants",
       "details": "Water all the indoor plants. Make sure the succulents don't get overwatered.",
       "category": "Todos",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "title": "Minale Fetene birthday",
+      "details": "May 28",
+      "category": "Reminders"
+    },
+    {
+      "id": "6",
+      "title": "Test the UI",
+      "details": "Check border radius and React-Masonry-CSS.",
+      "category": "Todos"
+    },
+    {
+      "title": "Doctor appointment",
+      "details": "Schedule a check-up with the doctor for next week.",
+      "category": "Health",
+      "id": "7"
+    },
+    {
+      "title": "Buy groceries",
+      "details": "Get fruits, vegetables, and snacks for the week.",
+      "category": "Shopping",
+      "id": "8"
+    },
+    {
+      "title": "Submit project proposal",
+      "details": "Finalize and submit the project proposal by Friday.",
+      "category": "Work",
+      "id": "9"
+    },
+    {
+      "title": "Plan weekend trip",
+      "details": "Organize travel details for the weekend trip to the beach.",
+      "category": "Travel",
       "id": "10"
     },
     {
-      "id": "7565",
-      "title": "Minale Fetene birth day",
-      "details": "may 28",
-      "category": "reminders"
+      "title": "Read new book",
+      "details": "Start reading 'The Midnight Library' by Matt Haig.",
+      "category": "Leisure",
+      "id": "11"
     },
     {
-      "id": "bd4b",
-      "title": "Test the ui",
-      "details": "check border Radius\nand React-Masonart-css",
-      "category": "todos"
+      "title": "Prepare presentation",
+      "details": "Create slides and notes for Monday's presentation.",
+      "category": "Work",
+      "id": "12"
+    },
+    {
+      "title": "Laundry",
+      "details": "Wash and fold the laundry.",
+      "category": "Todos",
+      "id": "13"
+    },
+    {
+      "title": "Check car oil",
+      "details": "Make sure the car oil is at the right level.",
+      "category": "Maintenance",
+      "id": "14"
+    },
+    {
+      "title": "Send birthday gift",
+      "details": "Order and send a birthday gift to a friend.",
+      "category": "Gifts",
+      "id": "15"
+    },
+    {
+      "title": "Grocery store",
+      "details": "Pick up eggs, milk, and bread.",
+      "category": "Shopping",
+      "id": "16"
+    },
+    {
+      "title": "Update resume",
+      "details": "Make necessary updates to the resume for job applications.",
+      "category": "Career",
+      "id": "17"
+    },
+    {
+      "title": "Watch new movie",
+      "details": "Check out the latest movie release this weekend.",
+      "category": "Leisure",
+      "id": "18"
+    },
+    {
+      "title": "Plan birthday party",
+      "details": "Organize the details for the upcoming birthday party.",
+      "category": "Events",
+      "id": "19"
+    },
+    {
+      "title": "Call mom",
+      "details": "Have a chat with mom this week.",
+      "category": "Family",
+      "id": "20"
+    },
+    {
+      "title": "Practice guitar",
+      "details": "Spend an hour practicing guitar skills.",
+      "category": "Hobbies",
+      "id": "21"
+    },
+    {
+      "title": "Organize workspace",
+      "details": "Clean and organize the home office workspace.",
+      "category": "Todos",
+      "id": "22"
+    },
+    {
+      "title": "Check emails",
+      "details": "Go through unread emails and respond as necessary.",
+      "category": "Work",
+      "id": "23"
+    },
+    {
+      "title": "Buy concert tickets",
+      "details": "Purchase tickets for the upcoming concert.",
+      "category": "Entertainment",
+      "id": "24"
+    },
+    {
+      "title": "Clean the house",
+      "details": "Do a deep cleaning of the house this weekend.",
+      "category": "Chores",
+      "id": "25"
+    },
+    {
+      "title": "Meditation",
+      "details": "Spend 10 minutes meditating every morning.",
+      "category": "Health",
+      "id": "26"
+    },
+    {
+      "title": "Update software",
+      "details": "Check for and install any software updates.",
+      "category": "Maintenance",
+      "id": "27"
+    },
+    {
+      "title": "Make a smoothie",
+      "details": "Blend a healthy smoothie for breakfast.",
+      "category": "Health",
+      "id": "28"
+    },
+    {
+      "title": "Schedule dentist appointment",
+      "details": "Book an appointment for dental check-up.",
+      "category": "Health",
+      "id": "29"
+    },
+    {
+      "title": "Plan family outing",
+      "details": "Organize a day out with the family next month.",
+      "category": "Family",
+      "id": "30"
+    },
+    {
+      "title": "Write blog post",
+      "details": "Draft and publish a new blog post by the end of the week.",
+      "category": "Writing",
+      "id": "31"
+    },
+    {
+      "title": "Review investment portfolio",
+      "details": "Check the current status of investments and make adjustments.",
+      "category": "Money",
+      "id": "32"
+    },
+    {
+      "title": "Attend yoga class",
+      "details": "Join the yoga class every Tuesday evening.",
+      "category": "Health",
+      "id": "33"
+    },
+    {
+      "title": "Start a new series",
+      "details": "Begin watching the new series on Netflix.",
+      "category": "Leisure",
+      "id": "34"
+    },
+    {
+      "title": "Check tire pressure",
+      "details": "Ensure all tires are properly inflated.",
+      "category": "Maintenance",
+      "id": "35"
+    },
+    {
+      "title": "Plan a picnic",
+      "details": "Gather supplies and plan a picnic in the park.",
+      "category": "Events",
+      "id": "36"
+    },
+    {
+      "title": "Finish reading a book",
+      "details": "Complete 'The Alchemist' by Paulo Coelho.",
+      "category": "Leisure",
+      "id": "37"
+    },
+    {
+      "title": "Join a new course",
+      "details": "Enroll in an online course for personal development.",
+      "category": "Learning",
+      "id": "38"
+    },
+    {
+      "title": "Plan garden layout",
+      "details": "Design the layout for the vegetable garden.",
+      "category": "Hobbies",
+      "id": "39"
+    },
+    {
+      "title": "Check bank statements",
+      "details": "Review bank statements for discrepancies.",
+      "category": "Money",
+      "id": "40"
+    },
+    {
+      "title": "Follow up on job applications",
+      "details": "Contact potential employers regarding job applications.",
+      "category": "Career",
+      "id": "41"
+    },
+    {
+      "title": "Learn a new recipe",
+      "details": "Try out a new recipe for dinner this week.",
+      "category": "Cooking",
+      "id": "42"
+    },
+    {
+      "title": "Attend a workshop",
+      "details": "Participate in a local workshop for skill improvement.",
+      "category": "Learning",
+      "id": "43"
+    },
+    {
+      "title": "Explore new music",
+      "details": "Discover and listen to new music genres.",
+      "category": "Leisure",
+      "id": "44"
+    },
+    {
+      "title": "Volunteer for charity",
+      "details": "Sign up for a local charity event this month.",
+      "category": "Community",
+      "id": "45"
+    },
+    {
+      "title": "Create a vision board",
+      "details": "Gather images and quotes for a vision board.",
+      "category": "Personal Development",
+      "id": "46"
+    },
+    {
+      "title": "Plan a road trip",
+      "details": "Map out a fun road trip for the summer.",
+      "category": "Travel",
+      "id": "47"
+    },
+    {
+      "title": "Check air filters",
+      "details": "Replace air filters in home HVAC system.",
+      "category": "Maintenance",
+      "id": "48"
+    },
+    {
+      "title": "Set a budget",
+      "details": "Create a monthly budget plan to track expenses.",
+      "category": "Money",
+      "id": "49"
+    },
+    {
+      "title": "Declutter closet",
+      "details": "Sort through clothes and donate unused items.",
+      "category": "Chores",
+      "id": "50"
     }
   ]
 }
