@@ -149,7 +149,11 @@ export default function Notes() {
       </Masonry>
 
       {/* Note Details Dialog */}
-      <Dialog open={openNote} onClose={handleCloseNote}>
+      <Dialog
+        open={openNote}
+        onClose={handleCloseNote}
+        sx={{ borderRadius: 36, cursor: "pointer" }}
+      >
         <DialogTitle>{selectedNote?.title}</DialogTitle>
         <DialogContent>
           <DialogContentText>{selectedNote?.details}</DialogContentText>
