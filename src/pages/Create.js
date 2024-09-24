@@ -8,6 +8,7 @@ import {
   FormControlLabel,
   FormLabel,
   FormControl,
+  Paper,
 } from "@mui/material";
 import React from "react";
 import AddIcon from "@mui/icons-material/Add";
@@ -82,20 +83,105 @@ export default function Create() {
           required
           error={detailsError}
         />
-        <FormControl sx={{ marginTop: 5, marginBottom: 20, display: "block" }}>
+        <FormControl sx={{ marginTop: 5, marginBottom: 20 }}>
           <FormLabel>Notes Category</FormLabel>
           <RadioGroup
             value={category}
             onChange={(e) => setCategory(e.target.value)}
+            sx={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
           >
-            <FormControlLabel value="money" control={<Radio />} label="Money" />
-            <FormControlLabel value="todos" control={<Radio />} label="Todos" />
-            <FormControlLabel
-              value="reminders"
-              control={<Radio />}
-              label="Reminders"
-            />
-            <FormControlLabel value="work" control={<Radio />} label="Work" />
+            <Paper style={{ display: "flex", flexWrap: "wrap", width: "100%" }}>
+              <FormControlLabel
+                value="all"
+                control={<Radio />}
+                label="All"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="money"
+                control={<Radio />}
+                label="Money"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="todos"
+                control={<Radio />}
+                label="Todos"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="shopping"
+                control={<Radio />}
+                label="Shopping"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="reminders"
+                control={<Radio />}
+                label="Reminders"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="work"
+                control={<Radio />}
+                label="Work"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="travel"
+                control={<Radio />}
+                label="Travel"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="leisure"
+                control={<Radio />}
+                label="Leisure"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="maintenance"
+                control={<Radio />}
+                label="Maintenance"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="chores"
+                control={<Radio />}
+                label="Chores"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="entertainment"
+                control={<Radio />}
+                label="Entertainment"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="family"
+                control={<Radio />}
+                label="Family"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="friends"
+                control={<Radio />}
+                label="Friends"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="health"
+                control={<Radio />}
+                label="Health"
+                sx={{ width: "33.33%" }}
+              />
+              <FormControlLabel
+                value="hobbies"
+                control={<Radio />}
+                label="Hobbies"
+                sx={{ width: "33.33%" }}
+              />
+            </Paper>
           </RadioGroup>
         </FormControl>
 

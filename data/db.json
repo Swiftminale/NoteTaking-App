@@ -7,12 +7,6 @@
       "id": "1"
     },
     {
-      "title": "Finish budget report",
-      "details": "Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.",
-      "category": "Work",
-      "id": "2"
-    },
-    {
       "title": "Set up automatic savings",
       "details": "Set up a recurring transfer to savings account.",
       "category": "Money",
@@ -21,14 +15,8 @@
     {
       "id": "5",
       "title": "Minale Fetene birthday",
-      "details": "May 28",
+      "details": "Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.Compile all the financial data for the previous quarter and finalize the budget report for the upcoming review meeting.",
       "category": "Reminders"
-    },
-    {
-      "id": "6",
-      "title": "Test the UI",
-      "details": "Check border radius and React-Masonry-CSS.",
-      "category": "Todos"
     },
     {
       "title": "Doctor appointment",
@@ -43,12 +31,6 @@
       "id": "8"
     },
     {
-      "title": "Submit project proposal",
-      "details": "Finalize and submit the project proposal by Friday.",
-      "category": "Work",
-      "id": "9"
-    },
-    {
       "title": "Plan weekend trip",
       "details": "Organize travel details for the weekend trip to the beach.",
       "category": "Travel",
@@ -59,12 +41,6 @@
       "details": "Start reading 'The Midnight Library' by Matt Haig.",
       "category": "Leisure",
       "id": "11"
-    },
-    {
-      "title": "Prepare presentation",
-      "details": "Create slides and notes for Monday's presentation.",
-      "category": "Work",
-      "id": "12"
     },
     {
       "title": "Laundry",
@@ -86,7 +62,7 @@
     },
     {
       "title": "Grocery store",
-      "details": "Pick up eggs, milk, and bread.",
+      "details": "Pick up eggs, milk, and bread.Pick up eggs, milk, and bread.Pick up eggs, milk, and bread.Pick up eggs, milk, and bread.Pick up eggs, milk, and bread.Pick up eggs, milk, and bread.",
       "category": "Shopping",
       "id": "16"
     },
@@ -127,12 +103,6 @@
       "id": "22"
     },
     {
-      "title": "Check emails",
-      "details": "Go through unread emails and respond as necessary.",
-      "category": "Work",
-      "id": "23"
-    },
-    {
       "title": "Buy concert tickets",
       "details": "Purchase tickets for the upcoming concert.",
       "category": "Entertainment",
@@ -143,12 +113,6 @@
       "details": "Do a deep cleaning of the house this weekend.",
       "category": "Chores",
       "id": "25"
-    },
-    {
-      "title": "Meditation",
-      "details": "Spend 10 minutes meditating every morning.",
-      "category": "Health",
-      "id": "26"
     },
     {
       "title": "Update software",
@@ -299,6 +263,12 @@
       "title": "Minale Fetene",
       "details": "trial for Deployment",
       "category": "reminders"
+    },
+    {
+      "id": "795c",
+      "title": "Check Up",
+      "details": "have a check up on the 16th of meskerem",
+      "category": "health"
     }
   ]
 }

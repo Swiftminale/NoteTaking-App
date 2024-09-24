@@ -10,14 +10,16 @@ import {
 import React from "react";
 import { yellow, green, pink, blue } from "@mui/material/colors";
 
-export default function NoteCard({ notes, handleDelete }) {
+export default function NoteCard({ notes, handleDelete, onClick }) {
   const category = notes.category.toLowerCase(); // Normalize category
 
   return (
     <div>
-      <Card elevation={5} sx={{ borderRadius: "16px" }}>
-        {" "}
-        {/* Adjusted borderRadius here */}
+      <Card
+        elevation={5}
+        sx={{ borderRadius: "16px", cursor: "pointer" }} // Add cursor pointer for clickable feel
+        onClick={onClick} // Attach the onClick handler to open the dialog
+      >
         <CardHeader
           avatar={
             <Avatar
@@ -40,7 +42,12 @@ export default function NoteCard({ notes, handleDelete }) {
             </Avatar>
           }
           action={
-            <IconButton onClick={() => handleDelete(notes.id)}>
+            <IconButton
+              onClick={(e) => {
+                e.stopPropagation(); // Prevent triggering the card click when clicking delete
+                handleDelete(notes.id);
+              }}
+            >
               <DeleteOutline />
             </IconButton>
           }
