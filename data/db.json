@@ -19,12 +19,6 @@
       "id": "3"
     },
     {
-      "title": "Water the plants",
-      "details": "Water all the indoor plants. Make sure the succulents don't get overwatered.",
-      "category": "Todos",
-      "id": "4"
-    },
-    {
       "id": "5",
       "title": "Minale Fetene birthday",
       "details": "May 28",
@@ -299,6 +293,12 @@
       "details": "Sort through clothes and donate unused items.",
       "category": "Chores",
       "id": "50"
+    },
+    {
+      "id": "c1f8",
+      "title": "Minale Fetene",
+      "details": "trial for Deployment",
+      "category": "reminders"
     }
   ]
 }
